@@ -53,8 +53,11 @@ docker logs tibems
 ```
 docker exec -it tibems /opt/tibco/ems/8.5/bin/tibemsadmin
 ```
-## container for TIBCO Enterprise Message Service Enterprise Edition
-If you already have a TIBCO EMS Enterprise Editionlicense/software, there is a tibemscreateimage script provided by TIBCO
- for creating a docker container.
+## additional infos and room for improvements
+- If you already have a TIBCO EMS Enterprise Editionlicense/software, there is a tibemscreateimage script provided by TIBCO
+  for creating a docker container. 
+- This image is not optimized for size, a centos base image was used 
+- all TIBCO EMS rpm are installed, you might want to leave out some 
+
 
 
